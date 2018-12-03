@@ -40,5 +40,5 @@ def rot13(string):
 
 
 
-
-print(rot13("Test"))
+if __name__ == "__main__":
+	print(rot13("Test"))

@@ -23,5 +23,5 @@ def format_duration(seconds):
     #last = 
     return ' and '.join([', '.join(text_elements[:-1]), text_elements[-1]]) if len(text_elements) > 1 else text_elements[0]
 
-
-print (format_duration(1232323))
+if __name__ == "__main__":
+  print (format_duration(1232323))

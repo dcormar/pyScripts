@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+import sys
+sys.path.insert(0, '/usr/src/app')
+
 import CharacterReplacement as script1
 import StringFormat as script2
 
